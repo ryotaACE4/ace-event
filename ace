@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>親子で年越しそば打ち体験 | ACE</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+        }
+        h1, h2 {
+            color: #333;
+        }
+        p {
+            margin: 0.5em 0;
+        }
+        form {
+            margin-top: 20px;
+        }
+        label {
+            display: block;
+            margin: 10px 0 5px;
+        }
+        input, textarea, button {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        button {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>親子で年越しそば打ち体験</h1>
+        <p>～ACE（武蔵野大学）主催～</p>
+    </header>
+    <div class="container">
+        <section>
+            <h2>活動概要</h2>
+            <p>ACEは、武蔵野大学の学生団体で、親子参加型のイベントを通じて地域コミュニティの活性化を目指しています。不登校や家庭内コミュニケーション不足の問題を解消し、親子で楽しい体験を共有できる場を提供しています。</p>
+        </section>
+        <section>
+            <h2>イベント詳細</h2>
+            <p><strong>日付:</strong> 2024年12月10日</p>
+            <p><strong>時間:</strong> 10:00 - 12:00</p>
+            <p><strong>場所:</strong> 武蔵野大学キャンパス内ホール</p>
+            <p><strong>参加費用:</strong> 2000円（材料費込み）</p>
+            <p><strong>対象:</strong> 小学生以下のお子様と保護者1名</p>
+            <p><strong>持ち物:</strong> エプロン、三角巾、マスク</p>
+        </section>
+        <section>
+            <h2>参加フォーム</h2>
+            <form action="https://example.com/form-handler" method="POST">
+                <label for="name">お名前</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">メールアドレス</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="phone">電話番号</label>
+                <input type="tel" id="phone" name="phone">
+
+                <label for="message">ご質問やメッセージ（任意）</label>
+                <textarea id="message" name="message" rows="4"></textarea>
+
+                <button type="submit">送信</button>
+            </form>
+        </section>
+        <section>
+            <h2>お問い合わせ</h2>
+            <p>企画: ACE（武蔵野大学）</p>
+            <p>メール: ariake.children.english.3@gmail.com</p>
+            <p>電話: 012-345-6789</p>
+        </section>
+    </div>
+</body>
+</html>
